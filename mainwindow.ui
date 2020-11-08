@@ -1,0 +1,3413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1477</width>
+    <height>777</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IDR - Versión de desarrollo</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_24">
+      <property name="font">
+       <font>
+        <family>Linux Biolinum Keyboard O</family>
+        <pointsize>18</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>IDR</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Dispositivos">
+       <attribute name="title">
+        <string>Dispositivos</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabDispositivos">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>0</y>
+          <width>1461</width>
+          <height>631</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tabRouter">
+         <attribute name="title">
+          <string>Router</string>
+         </attribute>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Marca:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modelo:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leMarcaRouter">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>20</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leModeloRouter">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>60</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnPrevisualizarR">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previsualizar</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>121</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Cantidad de bocas:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leBocasR">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>100</y>
+            <width>41</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>150</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Precio en U$S:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePrecioRouter">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>150</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>392</x>
+            <y>30</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>IP de gestión:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPr">
+          <property name="geometry">
+           <rect>
+            <x>390</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPr_2">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPr_3">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPr_4">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>150</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Función:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leFuncion">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>150</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="qtwRouter">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>280</y>
+            <width>1101</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Bocas</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Función</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>IP</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Usuario</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Contraseña</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en U$S</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en $</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio con IVA</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QPushButton" name="pbtnGuardarR">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardar</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="qlwRouter">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>230</y>
+            <width>1101</width>
+            <height>41</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbBorrarListaR">
+          <property name="geometry">
+           <rect>
+            <x>1030</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar todo</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnEditarR">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>500</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Editar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnLimpiarR">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>190</y>
+            <width>101</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Limpiar campos</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarR">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>500</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leBuscarR">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>500</y>
+            <width>171</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBuscarR">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>500</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QPushButton" name="pbtnBuscarRouter">
+          <property name="geometry">
+           <rect>
+            <x>700</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnMostrarTodoRouter">
+          <property name="geometry">
+           <rect>
+            <x>790</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mostrar todo</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_42">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>100</y>
+            <width>59</width>
+            <height>15</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Usuario:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_43">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>140</y>
+            <width>41</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Clave:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leUserR">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>100</y>
+            <width>113</width>
+            <height>23</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePassR">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>140</y>
+            <width>113</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tabWireless">
+         <attribute name="title">
+          <string>Dispositivo Wireless</string>
+         </attribute>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>150</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Precio en U$S:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPw_2">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPw_4">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leFuncionW">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>150</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPw_3">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leMarcaW">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>20</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPw">
+          <property name="geometry">
+           <rect>
+            <x>390</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>390</x>
+            <y>30</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>IP de gestión:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePrecioW">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>150</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leBocasW">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>100</y>
+            <width>41</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Marca:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leModeloW">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>60</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modelo:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>150</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Función:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>121</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Cantidad de bocas:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboAntena">
+          <property name="geometry">
+           <rect>
+            <x>561</x>
+            <y>50</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>omnidireccional</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>panel</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>grillada</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dish</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>parabólica</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>30</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Antena:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_20">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>100</y>
+            <width>31</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Dbi:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>610</x>
+            <y>100</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Potencia:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leDbi">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>90</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePotencia">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>90</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_22">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>30</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Banda:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBanda">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>50</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>5.8 GHZ</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2.4 GHZ</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2.4 / 5.8 GHZ</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>60 GHZ</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>900 MHZ</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QListWidget" name="qlwWireless">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>230</y>
+            <width>1291</width>
+            <height>41</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnPrevisualizarW">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previsualizar</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnGuardarW">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardar</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbBorrarListaW">
+          <property name="geometry">
+           <rect>
+            <x>1030</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar todo</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="qtwWireless">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>280</y>
+            <width>1441</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Bocas</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Función</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>IP</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Potencia</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Banda</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Tipo de antena</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Dbi</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Usuario</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Contraseña</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en U$S</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en $</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio con IVA</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarW">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>500</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnEditarW">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>500</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Editar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnLimpiarW">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>190</y>
+            <width>101</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Limpiar campos</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBuscarW">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>500</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="leBuscarW">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>500</y>
+            <width>171</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBuscarW">
+          <property name="geometry">
+           <rect>
+            <x>700</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnMostrarTodoW">
+          <property name="geometry">
+           <rect>
+            <x>790</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mostrar todo</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leUserW">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>100</y>
+            <width>113</width>
+            <height>23</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_44">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>140</y>
+            <width>41</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Clave:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePassW">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>140</y>
+            <width>113</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_45">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>100</y>
+            <width>59</width>
+            <height>15</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Usuario:</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tabSwitch">
+         <attribute name="title">
+          <string>Switch</string>
+         </attribute>
+         <widget class="QLineEdit" name="leIPs_3">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnGuardarS">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardar</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPs_2">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_23">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_25">
+          <property name="geometry">
+           <rect>
+            <x>392</x>
+            <y>30</y>
+            <width>91</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>IP de gestión:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPs">
+          <property name="geometry">
+           <rect>
+            <x>390</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_26">
+          <property name="geometry">
+           <rect>
+            <x>420</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_27">
+          <property name="geometry">
+           <rect>
+            <x>450</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_28">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>121</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Cantidad de bocas:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leFuncionS">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>150</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leMarcaSwitch">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>20</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leModeloSwitch">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>60</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_29">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>150</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Función:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePrecioS">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>150</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_30">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modelo:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnPrevisualizarS">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previsualizar</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leIPs_4">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>50</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarListaS">
+          <property name="geometry">
+           <rect>
+            <x>1030</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar todo</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_31">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Marca:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_32">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>150</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Precio en U$S:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leBocasS">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>100</y>
+            <width>41</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="rbGestionable">
+          <property name="geometry">
+           <rect>
+            <x>570</x>
+            <y>50</y>
+            <width>102</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Gestionable</string>
+          </property>
+         </widget>
+         <widget class="QRadioButton" name="rbNoGestionable">
+          <property name="geometry">
+           <rect>
+            <x>570</x>
+            <y>80</y>
+            <width>121</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>No gestionable</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="qtwSwitch">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>280</y>
+            <width>1201</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Bocas</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Función</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>IP</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Gestionable</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Usuario</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Contraseña</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en U$S</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en $</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio con IVA</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QListWidget" name="qlwSwitch">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>230</y>
+            <width>1101</width>
+            <height>41</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarS">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>500</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnEditarS">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>500</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Editar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnLimpiarS">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>190</y>
+            <width>101</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Limpiar campos</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnMostrarTodoS">
+          <property name="geometry">
+           <rect>
+            <x>790</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mostrar todo</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBuscarS">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>500</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="leBuscarS">
+          <property name="geometry">
+           <rect>
+            <x>520</x>
+            <y>500</y>
+            <width>171</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBuscarS">
+          <property name="geometry">
+           <rect>
+            <x>700</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leUserS">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>100</y>
+            <width>113</width>
+            <height>23</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_46">
+          <property name="geometry">
+           <rect>
+            <x>280</x>
+            <y>140</y>
+            <width>41</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Clave:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePassS">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>140</y>
+            <width>113</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_47">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>100</y>
+            <width>59</width>
+            <height>15</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Usuario:</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabInsumos">
+       <attribute name="title">
+        <string>Insumos</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabInsumos_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1111</width>
+          <height>611</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="currentIndex">
+         <number>3</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Cable UTP</string>
+         </attribute>
+         <widget class="QLabel" name="label_33">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>130</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Metros:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leMetrosUTP">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>120</y>
+            <width>51</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_36">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modelo:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnGuardarUTP">
+          <property name="geometry">
+           <rect>
+            <x>640</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardar</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnPrevisualizarUTP">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previsualizar</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leMarcaUTP">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>20</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_35">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Marca:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_34">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>150</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Precio en U$S:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePrecioUTP">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>150</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbBorrarListaUTP">
+          <property name="geometry">
+           <rect>
+            <x>1020</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar todo</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leModeloUTP">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>60</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="qtwUTP">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>281</y>
+            <width>1111</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="acceptDrops">
+           <bool>false</bool>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>26</number>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Metros</string>
+           </property>
+           <property name="font">
+            <font>
+             <weight>50</weight>
+             <bold>false</bold>
+             <underline>false</underline>
+             <kerning>false</kerning>
+            </font>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Interior o exterior</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Vaina doble o simple</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en U$S</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en $</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio con IVA</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QListWidget" name="qlwUTP">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>230</y>
+            <width>1111</width>
+            <height>41</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="gpxIntoExt">
+          <property name="geometry">
+           <rect>
+            <x>250</x>
+            <y>40</y>
+            <width>120</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Interior o exterior</string>
+          </property>
+          <widget class="QRadioButton" name="rbtInteriorUTP">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Interior</string>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="rbtExteriorUTP">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Exterior</string>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="gpxVaina">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>40</y>
+            <width>131</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Vaina simple o doble</string>
+          </property>
+          <widget class="QRadioButton" name="rbtVainaSimpleUTP">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Vaina simple</string>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="rbtVainaDobleUTP">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Vaina doble</string>
+           </property>
+           <property name="autoExclusive">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarUTP">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>500</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnEditarUTP">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>500</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Editar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnLimpiarUTP">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>190</y>
+            <width>101</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Limpiar campos</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnMostrarTodoUTP">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mostrar todo</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBuscarUTP">
+          <property name="geometry">
+           <rect>
+            <x>690</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBuscarUTP">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>500</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="leBuscarUTP">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>500</y>
+            <width>171</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>Fichas RJ45</string>
+         </attribute>
+         <widget class="QTableWidget" name="qtwRJ45">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>280</y>
+            <width>1111</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="acceptDrops">
+           <bool>false</bool>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>26</number>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Tipo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cantidad</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en U$S</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en $</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio con IVA</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QLineEdit" name="leMarcaRJ45">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>20</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leCantidadRJ45">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>120</y>
+            <width>51</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="gpxTipo">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>40</y>
+            <width>131</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Tipo</string>
+          </property>
+          <widget class="QRadioButton" name="rbtComun">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Com&amp;ún</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="rbtBlindada">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Blindada</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="label_57">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modelo:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnPrevisualizarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previsualizar</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_53">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>150</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Precio en U$S:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePrecioRJ45">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>150</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_58">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Marca:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_60">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>113</y>
+            <width>59</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cantidad:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbBorrarListaRJ45">
+          <property name="geometry">
+           <rect>
+            <x>1020</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar todo</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leModeloRJ45">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>60</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnGuardarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>640</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardar</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="qlwRJ45">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>230</y>
+            <width>1111</width>
+            <height>41</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>500</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnEditarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>500</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Editar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnLimpiarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>190</y>
+            <width>101</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Limpiar campos</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnMostrarTodoRJ45">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mostrar todo</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBuscarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>500</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="leBuscarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>500</y>
+            <width>171</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBuscarRJ45">
+          <property name="geometry">
+           <rect>
+            <x>690</x>
+            <y>500</y>
+            <width>80</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>Cable de fibra</string>
+         </attribute>
+         <widget class="QLineEdit" name="leMarcaFibra">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>20</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_37">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>130</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Metros:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leMetrosFibra">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>120</y>
+            <width>51</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePrecioFibra">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>150</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="gpxModo">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>40</y>
+            <width>131</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Modo</string>
+          </property>
+          <widget class="QRadioButton" name="rbtMonomodo">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Monomodo</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="rbtMultimodo">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Multimodo</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="label_38">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modelo:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnPrevisualizarFibra">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previsualizar</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leModeloFibra">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>60</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbBorrarListaFibra">
+          <property name="geometry">
+           <rect>
+            <x>1020</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar todo</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_39">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Marca:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_40">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>150</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Precio en U$S:</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="qlwFibra">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>229</y>
+            <width>1111</width>
+            <height>41</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="qtwFibra">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>280</y>
+            <width>1111</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="acceptDrops">
+           <bool>false</bool>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>26</number>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Metros</string>
+           </property>
+           <property name="font">
+            <font>
+             <weight>50</weight>
+             <bold>false</bold>
+             <underline>false</underline>
+             <kerning>false</kerning>
+            </font>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Pelos</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en U$S</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en $</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio con IVA</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QLabel" name="label_41">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>130</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pelos:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePelosFibra">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>120</y>
+            <width>51</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarFibra">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>500</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnEditarFibra">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>500</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Editar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnLimpiarFibra">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>190</y>
+            <width>101</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Limpiar campos</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnMostrarTodoFibra">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mostrar todo</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBuscarFibra">
+          <property name="geometry">
+           <rect>
+            <x>690</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBuscarFibra">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>500</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="leBuscarFibra">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>500</y>
+            <width>171</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnGuardarFibra">
+          <property name="geometry">
+           <rect>
+            <x>630</x>
+            <y>190</y>
+            <width>80</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardar</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string>Módulos SFP</string>
+         </attribute>
+         <widget class="QLabel" name="label_51">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Marca:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnGuardarSFP">
+          <property name="geometry">
+           <rect>
+            <x>640</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Guardar</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_52">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>150</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Precio en U$S:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbBorrarListaSFP">
+          <property name="geometry">
+           <rect>
+            <x>1020</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar todo</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leCantidadSFP">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>120</y>
+            <width>51</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leMarcaSFP">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>20</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="leModeloSFP">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>60</y>
+            <width>113</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_54">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>113</y>
+            <width>59</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cantidad:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lePrecioSFP">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>150</y>
+            <width>71</width>
+            <height>21</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnPrevisualizarSFP">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>190</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Previsualizar</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_55">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>60</y>
+            <width>59</width>
+            <height>14</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modelo:</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="gpxModo_3">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>40</y>
+            <width>131</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Modo</string>
+          </property>
+          <widget class="QRadioButton" name="rbtMonomodoSFP">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Monomodo</string>
+           </property>
+          </widget>
+          <widget class="QRadioButton" name="rbtMultimodoSFP">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>50</y>
+             <width>102</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Multimodo</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLineEdit" name="leKmSFP">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>120</y>
+            <width>51</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_56">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>115</y>
+            <width>101</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Km soportados:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="qtwSFP">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>280</y>
+            <width>1111</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="acceptDrops">
+           <bool>false</bool>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>26</number>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Id</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Modo</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Km soportados</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Cantidad</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en U$S</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio en $</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Precio con IVA</string>
+           </property>
+          </column>
+         </widget>
+         <widget class="QListWidget" name="qlwSFP">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>229</y>
+            <width>1111</width>
+            <height>41</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBorrarSFP">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>500</y>
+            <width>141</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Borrar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnEditarSFP">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>500</y>
+            <width>131</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Editar seleccionado</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnLimpiarSFP">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>190</y>
+            <width>101</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Limpiar campos</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnMostrarTodoSFP">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Mostrar todo</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pbtnBuscarSFP">
+          <property name="geometry">
+           <rect>
+            <x>690</x>
+            <y>500</y>
+            <width>81</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="cboBuscarSFP">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>500</y>
+            <width>71</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>Marca</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Modelo</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QLineEdit" name="leBuscarSFP">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>500</y>
+            <width>171</width>
+            <height>22</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1477</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>A&amp;rchivo</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="actionPar_metros"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>A&amp;yuda</string>
+    </property>
+    <addaction name="actionAcerca_de"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Salir</string>
+   </property>
+  </action>
+  <action name="actionPar_metros">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Parámetros</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Acerca de</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>leMarcaRouter</tabstop>
+  <tabstop>leModeloRouter</tabstop>
+  <tabstop>leBocasR</tabstop>
+  <tabstop>leFuncion</tabstop>
+  <tabstop>leIPr</tabstop>
+  <tabstop>leIPr_2</tabstop>
+  <tabstop>leIPr_3</tabstop>
+  <tabstop>leIPr_4</tabstop>
+  <tabstop>lePrecioRouter</tabstop>
+  <tabstop>pbtnPrevisualizarR</tabstop>
+  <tabstop>pbtnGuardarR</tabstop>
+  <tabstop>pbBorrarListaR</tabstop>
+  <tabstop>tabDispositivos</tabstop>
+  <tabstop>qlwRouter</tabstop>
+  <tabstop>qtwRouter</tabstop>
+  <tabstop>leMarcaW</tabstop>
+  <tabstop>leModeloW</tabstop>
+  <tabstop>leBocasW</tabstop>
+  <tabstop>leFuncionW</tabstop>
+  <tabstop>cboBanda</tabstop>
+  <tabstop>leIPw</tabstop>
+  <tabstop>leIPw_2</tabstop>
+  <tabstop>leIPw_3</tabstop>
+  <tabstop>leIPw_4</tabstop>
+  <tabstop>lePrecioW</tabstop>
+  <tabstop>cboAntena</tabstop>
+  <tabstop>leDbi</tabstop>
+  <tabstop>lePotencia</tabstop>
+  <tabstop>pbtnPrevisualizarW</tabstop>
+  <tabstop>pbtnGuardarW</tabstop>
+  <tabstop>pbBorrarListaW</tabstop>
+  <tabstop>qlwWireless</tabstop>
+  <tabstop>qtwWireless</tabstop>
+  <tabstop>leMarcaSwitch</tabstop>
+  <tabstop>leModeloSwitch</tabstop>
+  <tabstop>leBocasS</tabstop>
+  <tabstop>leFuncionS</tabstop>
+  <tabstop>leIPs</tabstop>
+  <tabstop>leIPs_2</tabstop>
+  <tabstop>leIPs_3</tabstop>
+  <tabstop>leIPs_4</tabstop>
+  <tabstop>rbGestionable</tabstop>
+  <tabstop>rbNoGestionable</tabstop>
+  <tabstop>lePrecioS</tabstop>
+  <tabstop>pbtnPrevisualizarS</tabstop>
+  <tabstop>pbtnGuardarS</tabstop>
+  <tabstop>pbtnBorrarListaS</tabstop>
+  <tabstop>qlwSwitch</tabstop>
+  <tabstop>qtwSwitch</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>tabInsumos_2</tabstop>
+  <tabstop>leMarcaUTP</tabstop>
+  <tabstop>leModeloUTP</tabstop>
+  <tabstop>leMetrosUTP</tabstop>
+  <tabstop>rbtInteriorUTP</tabstop>
+  <tabstop>rbtExteriorUTP</tabstop>
+  <tabstop>rbtVainaSimpleUTP</tabstop>
+  <tabstop>rbtVainaDobleUTP</tabstop>
+  <tabstop>lePrecioUTP</tabstop>
+  <tabstop>pbtnPrevisualizarUTP</tabstop>
+  <tabstop>pbtnGuardarUTP</tabstop>
+  <tabstop>pbBorrarListaUTP</tabstop>
+  <tabstop>qlwUTP</tabstop>
+  <tabstop>qtwUTP</tabstop>
+  <tabstop>leMarcaFibra</tabstop>
+  <tabstop>leModeloFibra</tabstop>
+  <tabstop>leMetrosFibra</tabstop>
+  <tabstop>lePelosFibra</tabstop>
+  <tabstop>rbtMonomodo</tabstop>
+  <tabstop>rbtMultimodo</tabstop>
+  <tabstop>lePrecioFibra</tabstop>
+  <tabstop>pbtnPrevisualizarFibra</tabstop>
+  <tabstop>pbBorrarListaFibra</tabstop>
+  <tabstop>qlwFibra</tabstop>
+  <tabstop>qtwFibra</tabstop>
+  <tabstop>leMarcaSFP</tabstop>
+  <tabstop>leModeloSFP</tabstop>
+  <tabstop>leKmSFP</tabstop>
+  <tabstop>leCantidadSFP</tabstop>
+  <tabstop>rbtMonomodoSFP</tabstop>
+  <tabstop>rbtMultimodoSFP</tabstop>
+  <tabstop>lePrecioSFP</tabstop>
+  <tabstop>pbtnPrevisualizarSFP</tabstop>
+  <tabstop>pbtnGuardarSFP</tabstop>
+  <tabstop>pbBorrarListaSFP</tabstop>
+  <tabstop>qlwSFP</tabstop>
+  <tabstop>qtwSFP</tabstop>
+  <tabstop>leMarcaRJ45</tabstop>
+  <tabstop>leModeloRJ45</tabstop>
+  <tabstop>leCantidadRJ45</tabstop>
+  <tabstop>rbtComun</tabstop>
+  <tabstop>rbtBlindada</tabstop>
+  <tabstop>lePrecioRJ45</tabstop>
+  <tabstop>pbtnPrevisualizarRJ45</tabstop>
+  <tabstop>pbtnGuardarRJ45</tabstop>
+  <tabstop>pbBorrarListaRJ45</tabstop>
+  <tabstop>qlwRJ45</tabstop>
+  <tabstop>qtwRJ45</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
